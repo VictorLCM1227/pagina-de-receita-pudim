@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 1280px;
+    height: 720px;
+    transform: scale(0.8);
+}
+
+h1 {
+    text-align: center;
+}
