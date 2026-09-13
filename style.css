@@ -4,19 +4,26 @@
 }
 
 header {
-    background-color: red;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    margin-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 30px;
 }
+
 
 img {
     width: 1280px;
     height: 720px;
-    transform: scale(0.8);
+    transform: scale(0.6);
+    margin: auto;
 }
 
-h1 {
-    text-align: center;
+header img {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+
+header > a {
+    margin-right: 15px;
+    text-decoration: none;
 }
