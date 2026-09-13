@@ -1,40 +1,98 @@
 
+
+
+
 * {
     margin: 0;
 }
 
-header {
-    padding-top: 0;
-    padding-bottom: 30px;
+#main {
+    border: 10px solid darkgray;
+    padding: 10px;
+    margin: 20px 20px 40px 20px;
+    outline: 5px dashed salmon;
 }
 
-
-img {
-    width: 1280px;
-    height: 720px;
-    transform: scale(0.6);
+img#main {
+    width: 836px;
+    height: 470px;
     margin: auto;
+    display: block;
+}
+
+header {
+    height: 100px;
+    padding: 0 40px;
+    background-color: #FFF8E7;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+    border-bottom: 1px solid #E8DCC5;
+}
+
+/* Área dos links */
+#left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Links */
+#left a {
+    color: #4A3024;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+    transition: color 0.2s ease;
+}
+
+/* Efeito ao passar o mouse */
+#left a:hover {
+    color: #C62828;
+}
+
+/* Logo */
+#meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header img {
-    margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: auto;
 }
 
+/* Área direita */
+#direita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
-header > a {
-    margin-right: 15px;
-    text-decoration: none;
+    color: #4A3024;
+    font-size: 14px;
 }
 
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: "Pinyon Script", cursive;
+    font-weight: bolder;
+    color: red;
+    font-size: 70px;
+}
 
-#main {
-    border: 10px solid darkgray;
-
-    padding: 10px;
-
+section.selo {
+    background-color: #E8DCC5;
+    width: 300px;
+    padding: 20px;
     margin: 20px 20px 40px 20px;
-
     outline: 5px dashed salmon;
+}
+
+article {
+    display: grid;
 }
