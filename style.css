@@ -27,3 +27,14 @@ header > a {
     margin-right: 15px;
     text-decoration: none;
 }
+
+
+#main {
+    border: 10px solid darkgray;
+
+    padding: 10px;
+
+    margin: 20px 20px 40px 20px;
+
+    outline: 5px dashed salmon;
+}
