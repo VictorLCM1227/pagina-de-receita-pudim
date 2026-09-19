@@ -83,6 +83,7 @@ h1 {
     font-weight: bolder;
     color: red;
     font-size: 70px;
+    background-color: white;
 }
 
 section.selo {
@@ -95,4 +96,8 @@ section.selo {
 
 article {
     display: grid;
+}
+
+body {
+    background-image: url(wallpaper.png);
 }
