@@ -1,7 +1,5 @@
 
 
-
-
 * {
     margin: 0;
 }
@@ -52,6 +50,7 @@ header {
 /* Efeito ao passar o mouse */
 #left a:hover {
     color: #C62828;
+    text-decoration: underline;
 }
 
 /* Logo */
@@ -83,7 +82,7 @@ h1 {
     font-weight: bolder;
     color: red;
     font-size: 70px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.364);
 }
 
 section.selo {
@@ -100,4 +99,8 @@ article {
 
 body {
     background-image: url(wallpaper.png);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
