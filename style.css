@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 #main {
@@ -36,7 +37,7 @@ header {
     align-items: center;
     gap: 25px;
 }
-
+        
 /* Links */
 #left a {
     color: #4A3024;
